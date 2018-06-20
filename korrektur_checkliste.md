@@ -10,9 +10,9 @@
  -> Markus bitte einmal proof-readen :D
 [ ] Sinn und nutzen von Arbeitspunkt (und Arbeitsgerade)
 ##Funktionsweise Transistoren
-[ ] Konretisieren Zusammenhang Bulk/Drain/Source
-[ ] fünfwertig -> dreiwertig // dumm kopiert
-[ ] Erklärung von n-Kanal Mosfets korrigieren // wieder dumm kopiert?
+[?] Konretisieren Zusammenhang Bulk/Drain/Source
+[x] fünfwertig -> dreiwertig // dumm kopiert
+[?] Erklärung von n-Kanal Mosfets korrigieren // wieder dumm kopiert?
 
 #Sonstiges
 [ ] Messwerte vom statischen Querstrom leider falsch, da nicht statisch gemessen, dies anmerken?
