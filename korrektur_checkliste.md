@@ -2,11 +2,12 @@
 [ ] Abbildung 1 ändern, Spannungsquellen falsch markiert
 [x] Aufgabenstellung ergänzen: Arbeitsgerade/Punkt
 #Durchführung
-[ ] Konkrete Werte für Spannung bekanntgeben
+[x] Konkrete Werte für Spannung bekanntgeben
 [ ] Abbildung 2/3: Arbeitsgerade und Punkt in die Ausgangskennlinie
 #Auswertung
-[ ] "Diode" -> "Triode" // dummer Fehler 
-[ ] Aussagen über Stuerkennlinie, daher momentan komplett falsch?
+[x] "Diode" -> "Triode" // dummer Fehler 
+[ ] Aussagen über Steuerkennlinie, daher momentan komplett falsch?
+[ ] Sinn und nutzen von Arbeitspunkt (und Arbeitsgerade)
 ##Funktionsweise Transistoren
 [ ] Konretisieren Zusammenhang Bulk/Drain/Source
 [ ] fünfwertig -> dreiwertig // dumm kopiert
