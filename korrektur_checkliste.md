@@ -6,7 +6,8 @@
 [ ] Abbildung 2/3: Arbeitsgerade und Punkt in die Ausgangskennlinie
 #Auswertung
 [x] "Diode" -> "Triode" // dummer Fehler 
-[ ] Aussagen über Steuerkennlinie, daher momentan komplett falsch?
+[?] Aussagen über Steuerkennlinie, daher momentan komplett falsch?
+ -> Markus bitte einmal proof-readen :D
 [ ] Sinn und nutzen von Arbeitspunkt (und Arbeitsgerade)
 ##Funktionsweise Transistoren
 [ ] Konretisieren Zusammenhang Bulk/Drain/Source

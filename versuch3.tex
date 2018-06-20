@@ -214,11 +214,14 @@ Zur Bestimmung der Ausgangskennlinie wurde die Gate-Source Spannung auf $U_{GS} 
 		\label{ausgang2-5V}
     \end{minipage}
 \end{table}
+
 \subsection*{Beobachtungen}
-Âuffällig war beim Bestimmen der Eingangskennlinie der rasche Anstieg des Stromes, sobald die Gate-Source Spannung eine gewisse Schwelle erreicht hatte.
-Im Fall der Ausgangskennlinie ist zu bemerken, dass die Höhe, auf die sich der Strom bei höherem $U_{DS}$ einpendelt, scheinbar von der konstant gehaltenen Spannung $U_{GS}$ abhängt.
+Auffällig war beim Bestimmen der Eingangskennlinie der rasche Anstieg des Stromes, sobald die Gate-Source Spannung eine gewisse Schwelle erreicht hatte.
+Im Fall der Ausgangskennlinien ist zu bemerken, dass die Höhe, auf die sich der Strom bei höherem $U_{DS}$ einpendelt, scheinbar von der konstant gehaltenen Spannung $U_{GS}$ abhängt. Zudem lässt sich erkennen, dass der Ausgangsstrom exponentiell abhängig von $U_{DS}$ ist, bis hin zur einem gewissen Punkt, ab welchem der Strom sich auf einen gewissen Wert einpendelt
+
 \section*{Auswertung}
-Wie sich an \autoref{graphAusgangskennlinie} erkennen lässt, liegt die Schwellspannung des Transistors bei $U_{GS} = 1.8V$. Im Bereich zwischen $1.8V$ und $3.2V$ lässt sich der Triodenbereich erkennen, in welchem wir einen exponentiellen Anstieg der Leitfähigkeit feststellen können. Ab $3.2V$ befindet sich die Diode dann im Sättigungsbereich. Der Arbeitspunkt liegt im Schnitt der Kennlinie und der Arbeitsgeraden, also an der Stelle auf der Kennlinie, welche mit dem anhängenden Verbraucher übereinstimmt. Daraus lässt sich ablesen, welche Spannung nötig ist, um diesen Verbraucher zu versorgen.
+Für $U_{GS} = 2.5 V$ lässt sich an der Grafik gut erkennen, dass zwischen $U_{DS} = 0 V$ und $U_{DS} = 1.4 V$ der Ausgangsstrom $I_D$ exponentiell ansteigt (in Abhängigkeit von $U_{DS}$). Dieser Bereich nennt sich Triodenbereich. Bei höheren $U_{DS}$ tritt dieser Effekt nicht mehr auf, der Strom pendelt sich bei $I_D = 11\si{\milli\ampere}$ ein im sogenannten Sättigungsbereich. \\
+Die gleichen Beobachtungen lassen sich auch für $U_{GS} = 3 V$ machen, jedoch beginnt der Sättigungsbereich erst bei höherer Spannung von $U_{DS} = 4 V$ und erlaubt auch einen größeren Strom von $I_D = 32\si{\milli\ampere}$.
 
 In \autoref{graphAusgangskennlinie} sehen wir zwei Ausgangskurven über der Drain-Source-Spannung, einmal bei festgehaltener Gate-Source-Spannung von $2.5V$ (a) und einmal $3V$ (b). In beiden Konfigurationen lässt sich der Graph in zwei Bereiche einteilen. Der Triodenbereich startet bei beiden Graphen bei $U_{DS} = 0 V$ und endet bei Konfiguration (a) bei ca. $U_{DS} = 1.5 V$. Bei Konfiguration (b) ist das Ende der Triodenbereich sehr viel höher mit rund $U_{DS} = 4.5 V$. In beiden Fällen startet ab diesem Punkt der Sättigungsbereich. Der größere Bereich im Falle einer Gate-Source Spannung von $3 V$ ist dadurch zu erklären, als dass, wie schon in dem ersten Versuchsteil gezeigt, die Leitfähigkeit ab $1.8 V$ bis $3.2 V$ exponentiell steigt. Damit kann bei einer Gate-Source Spannung von $2.5 V$ sehr viel weniger Strom fließen, als bei $3 V$.
 
