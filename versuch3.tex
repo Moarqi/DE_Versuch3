@@ -151,18 +151,22 @@ $3.2$	& $24.72$
 \end{table}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{eingang.pdf}
+    \includegraphics[width=0.8\linewidth]{eingang.pdf}
     \caption{Eingangskennlinie mit $U_{DS}=3V$}
     \label{graphEingangskennlinie}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{ausgang.pdf}
+    \includegraphics[width=0.8\linewidth]{ausgang.pdf}
     \caption{Ausgangskennlinien}
     \label{graphAusgangskennlinie}
 \end{figure}
+
+\newpage
+
 Zur Bestimmung der Ausgangskennlinie wurde die Gate-Source Spannung auf $U_{GS} = 3 V$ im ersten, und auf $U_{GS} = 2.5 V$ im zweiten Durchgang geregelt. Die Messwerte sind in \autoref{ausgang3V} und \autoref{ausgang2-5V} zu finden und in \autoref{graphAusgangskennlinie} grafisch aufbereitet.
-\begin{table}[htb]
+
+\begin{table}[H]
     \centering
     \begin{minipage}[b][][b]{0.45\linewidth}
         \centering
@@ -225,6 +229,10 @@ Die gleichen Beobachtungen lassen sich auch für $U_{GS} = 3 V$ machen, jedoch b
 
 In \autoref{graphAusgangskennlinie} sehen wir zwei Ausgangskurven über der Drain-Source-Spannung, einmal bei festgehaltener Gate-Source-Spannung von $2.5V$ (a) und einmal $3V$ (b). In beiden Konfigurationen lässt sich der Graph in zwei Bereiche einteilen. Der Triodenbereich startet bei beiden Graphen bei $U_{DS} = 0 V$ und endet bei Konfiguration (a) bei ca. $U_{DS} = 1.5 V$. Bei Konfiguration (b) ist das Ende der Triodenbereich sehr viel höher mit rund $U_{DS} = 4.5 V$. In beiden Fällen startet ab diesem Punkt der Sättigungsbereich. Der größere Bereich im Falle einer Gate-Source Spannung von $3 V$ ist dadurch zu erklären, als dass, wie schon in dem ersten Versuchsteil gezeigt, die Leitfähigkeit ab $1.8 V$ bis $3.2 V$ exponentiell steigt. Damit kann bei einer Gate-Source Spannung von $2.5 V$ sehr viel weniger Strom fließen, als bei $3 V$.
 
+Weiterhin sind für beide $U_GS$ die Arbeitsgeraden eingetragen. Diese ergeben sich durch die Überlegung, dass ein idealer Transistor bei $U_GS = 0 V$ vollständig sperrt, der Strom an dieser Stelle also 0A beträgt. Dies markiert den ersten Punkt unserer Geraden, für $U_GS = 2.5V$ also den Punkt (2.5V, 0A). Der zweite Punkt liegt an der Stelle der maximalen Leitfähigkeit, also wenn der komplette Strom am Verbraucher hinter dem Transistor abfällt. Für einen Transistor mit $R = 100\omega$ und die Spannung $U_GS = 2.5 V$ ergibt sich damit durch $U = R*I$ ein Strom von $I_D = 25\si{\milli\ampere}$, der resultierende Punkt liegt also bei (0V, 25\si{\milli\ampere}). Diese Punkte definieren die Arbeitsgerade.
+\\
+Sucht man jetzt den Schnittpunkt zwischen Arbeitsgerade und Ausgangskennlinie, so findet man den Arbeitspunkt. Dieser markiert die Stelle der idealen Operation für den Transistor (da die Arbeitsgerade das Verhalten eines idealisierten Transistors modelliert). Von diesem Punkt aus hat man eine möglichst gleichverteilte Veränderung der Leitfähigkeit des Transistors. Da der Transistor ein nicht-lineares Verhalten aufzeigt, ist der Arbeitspunkt sinnvoll, da eine Änderung von $U_DS$ um einen bestimmten Faktor nach oben und unten ein gleichmäßiges Verhalten darstellt.
+
 \subsection*{Funktionsweise Transistoren$^{[1]}$}
 \label{transistoren_info}
 
@@ -239,6 +247,7 @@ p-Kanal MOSFETs haben als Halbleiter zwischen Drain und Source ein n-dotiertes M
 Für n-Kanal MOSFETS sieht das ganze etwas anders aus. Das Halbleitermaterial ist p-dotiert, es wurden also drei-wertige Atome in das vier-wertige Silicium gebracht. Der Effekt ist dadurch genau umgekehrt zu dem bei p-Kanal MOSEFETs: es gibt Elektronen-Lücken, die von freien Elektronen gefüllt werden können. %Damit aber eine solche Lücke gefüllt wird, muss eine andere freigegeben werden. Dies lässt sich dann auch vereinfacht als bewegliche, positive Ladungsträger betrachten. Legen wir nun eine positive Spannung am Bulk an, so werden diese positiven Ladungsträger "aus dem Weg gezogen" und ein Stromfluss zwischen Drain und Source durch den Ladungsträger ist möglich.
 
 % Ich weiß nicht, wie ich das vernünftig beschreiben soll, so dass das der Anmerkung entspricht, also lasse ich das jetzt einfach raus?? Ich blicks halt net ganz. Naja, immerhin schien der Teil für p-Kanal Mosfets jetzt richtig zu sein...
+
 
 \section*{Literaturverzeichnis}
 
